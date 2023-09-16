@@ -10,9 +10,10 @@
 		0F5EC6922AB51E0300B3BF7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5EC6912AB51E0300B3BF7D /* AppDelegate.swift */; };
 		0F5EC6942AB51E0300B3BF7D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5EC6932AB51E0300B3BF7D /* SceneDelegate.swift */; };
 		0F5EC6962AB51E0400B3BF7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5EC6952AB51E0400B3BF7D /* ViewController.swift */; };
-		0F5EC6992AB51E0400B3BF7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F5EC6972AB51E0400B3BF7D /* Main.storyboard */; };
 		0F5EC69B2AB51E0700B3BF7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F5EC69A2AB51E0700B3BF7D /* Assets.xcassets */; };
 		0F5EC69E2AB51E0700B3BF7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F5EC69C2AB51E0700B3BF7D /* LaunchScreen.storyboard */; };
+		0F5EC6A92AB5247700B3BF7D /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F5EC6A82AB5247700B3BF7D /* Pacifico-Regular.ttf */; };
+		0FCFD0AC2AB62A7A009B9D0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FCFD0AE2AB62A7A009B9D0D /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +21,13 @@
 		0F5EC6912AB51E0300B3BF7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F5EC6932AB51E0300B3BF7D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0F5EC6952AB51E0400B3BF7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0F5EC6982AB51E0400B3BF7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F5EC69A2AB51E0700B3BF7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F5EC69D2AB51E0700B3BF7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F5EC69F2AB51E0700B3BF7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F5EC6A82AB5247700B3BF7D /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		0FCFD0AB2AB62A16009B9D0D /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		0FCFD0B02AB62A94009B9D0D /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Main.strings; sourceTree = "<group>"; };
+		0FCFD0B12AB62AA2009B9D0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,24 @@
 		0F5EC6902AB51E0300B3BF7D /* BootcampDesignAssignment */ = {
 			isa = PBXGroup;
 			children = (
+				0F5EC6A72AB5245400B3BF7D /* Fonts */,
+				0FCFD0AE2AB62A7A009B9D0D /* Main.storyboard */,
 				0F5EC6912AB51E0300B3BF7D /* AppDelegate.swift */,
 				0F5EC6932AB51E0300B3BF7D /* SceneDelegate.swift */,
 				0F5EC6952AB51E0400B3BF7D /* ViewController.swift */,
-				0F5EC6972AB51E0400B3BF7D /* Main.storyboard */,
 				0F5EC69A2AB51E0700B3BF7D /* Assets.xcassets */,
 				0F5EC69C2AB51E0700B3BF7D /* LaunchScreen.storyboard */,
 				0F5EC69F2AB51E0700B3BF7D /* Info.plist */,
 			);
 			path = BootcampDesignAssignment;
+			sourceTree = "<group>";
+		};
+		0F5EC6A72AB5245400B3BF7D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0F5EC6A82AB5247700B3BF7D /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +122,7 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = 0F5EC6852AB51E0300B3BF7D;
 			productRefGroup = 0F5EC68F2AB51E0300B3BF7D /* Products */;
@@ -125,9 +139,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FCFD0AC2AB62A7A009B9D0D /* Main.storyboard in Resources */,
+				0F5EC6A92AB5247700B3BF7D /* Pacifico-Regular.ttf in Resources */,
 				0F5EC69E2AB51E0700B3BF7D /* LaunchScreen.storyboard in Resources */,
 				0F5EC69B2AB51E0700B3BF7D /* Assets.xcassets in Resources */,
-				0F5EC6992AB51E0400B3BF7D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,20 +162,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0F5EC6972AB51E0400B3BF7D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0F5EC6982AB51E0400B3BF7D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0F5EC69C2AB51E0700B3BF7D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				0F5EC69D2AB51E0700B3BF7D /* Base */,
+				0FCFD0AB2AB62A16009B9D0D /* tr */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0FCFD0AE2AB62A7A009B9D0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FCFD0B02AB62A94009B9D0D /* tr */,
+				0FCFD0B12AB62AA2009B9D0D /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -170,6 +187,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -230,6 +248,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -290,6 +309,7 @@
 				DEVELOPMENT_TEAM = T56JGFA2A3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BootcampDesignAssignment/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = KebApp;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,6 +338,7 @@
 				DEVELOPMENT_TEAM = T56JGFA2A3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BootcampDesignAssignment/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = KebApp;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

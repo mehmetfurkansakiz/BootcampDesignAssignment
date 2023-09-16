@@ -1,0 +1,36 @@
+
+/* Class = "UILabel"; text = "$7.90"; ObjectID = "0vD-rU-6Mv"; */
+"0vD-rU-6Mv.text" = "209.90₺";
+
+/* Class = "UILabel"; text = "30 min"; ObjectID = "Lun-em-KxA"; */
+"Lun-em-KxA.text" = "30 dakika";
+
+/* Class = "UILabel"; text = "Our task is to feed you the most delicious food as quickly as possible"; ObjectID = "Nnh-kV-zs2"; */
+"Nnh-kV-zs2.text" = "Görevimiz sizi mümkün olan en kısa sürede en lezzetli yiyeceklerle doyurmaktır";
+
+/* Class = "UIButton"; configuration.title = "A Portion"; ObjectID = "RFG-XV-cb1"; */
+"RFG-XV-cb1.configuration.title" = "Tek Porsiyon";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "RFG-XV-cb1"; */
+"RFG-XV-cb1.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "+ 2.99$"; ObjectID = "So8-uf-WJ5"; */
+"So8-uf-WJ5.text" = "+ 79.99₺";
+
+/* Class = "UILabel"; text = "Hot Kebab"; ObjectID = "ZnI-05-3EA"; */
+"ZnI-05-3EA.text" = "Acı Kebap";
+
+/* Class = "UILabel"; text = "+ 0$"; ObjectID = "dQy-uH-N25"; */
+"dQy-uH-N25.text" = "+ 0₺";
+
+/* Class = "UIButton"; configuration.title = "1,5 Portion"; ObjectID = "tBs-gs-uUZ"; */
+"tBs-gs-uUZ.configuration.title" = "1,5 Porsiyon";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "tBs-gs-uUZ"; */
+"tBs-gs-uUZ.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "ADD TO CART"; ObjectID = "wmA-fK-6bK"; */
+"wmA-fK-6bK.configuration.title" = "SEPETE EKLE";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "wmA-fK-6bK"; */
+"wmA-fK-6bK.normalTitle" = "Button";
